@@ -1,0 +1,121 @@
+.body{
+    align-items: center;
+}
+.outer
+{
+    display: flex;
+    border: 2px solid black;
+    width: 725px;
+    height: 1200px;
+    flex-direction: column;
+    margin-left: 275px;
+    
+   
+    
+}
+.first  {
+    width: auto;
+    height: 383px;
+    display:  flex;
+    flex-direction: column;
+}
+.first{
+    background-image: url("images/torshov.jpg");
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+  justify-content: center;
+  align-items: center;
+    
+}
+#set1 
+{
+    
+  background-color:  #457B9D;
+  height: 50px;
+  width: 200px;
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+}
+#set 
+{
+  background-color:  #1D3557;
+  height: 52px;
+  width: 412px;
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.mid{
+ background-color: #F1FAEE;
+    width: auto;
+    height: 383px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+.ro{
+    display: flex;
+    flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+
+}
+
+.cr{
+    height: 100px;
+    width: 100px;
+    border-radius: 50px;
+}
+.last
+{
+    width: auto;
+    height: 450px;
+    display: flex;
+    justify-content: space-around;
+    background-color: aliceblue;
+}
+.card{
+   margin-top: 60px;;
+    background-color: #A8DADC;
+    height: 294px;
+    width: 400px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    border-bottom: 5px solid darkblue;
+
+
+    
+
+}
+.per-image{
+    height:250px ;
+    width:180px ;
+    background-image: url("images/per.jpg");
+    background-size: cover;
+    display: flex;
+    margin: 20px;
+    border: 1px solid blue;
+
+}
+.muskan{
+     height:250px ;
+    width:180px ;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+
+
+
+    
